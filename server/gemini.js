@@ -12,9 +12,8 @@ const port = process.env.PORT || 3000;
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://chat-gemini-neon.vercel.app/",
     methods: ["GET", "POST"],
-   
   })
 );
 
