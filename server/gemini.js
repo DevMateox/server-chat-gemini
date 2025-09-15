@@ -12,7 +12,7 @@ const port = process.env.PORT || 3000;
 
 app.use(
   cors({
-    origin: "https://chat-gemini-neon.vercel.app/",
+    origin: "https://chat-gemini-neon.vercel.app",
     methods: ["GET", "POST"],
   })
 );
